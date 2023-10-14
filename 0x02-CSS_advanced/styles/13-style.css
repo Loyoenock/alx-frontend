@@ -53,7 +53,7 @@ a:hover {
   text-decoration: underline;
 }
 a:active {
-  text-decoration: underline;
+  background-color: var(--color-dark-grey);
 }
 
 

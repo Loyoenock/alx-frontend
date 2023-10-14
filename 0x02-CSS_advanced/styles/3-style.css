@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -7,9 +11,6 @@
   --text-color: color-black;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 body{
   color: --text-color;
 }

@@ -620,7 +620,7 @@ ul.row {
 .section-hero {
   background-size: 90rem auto;
 }
-.section-hero .section-hero {
+.section-hero .section-title {
   margin-bottom: 5rem;
 }
 .section-hero .section-inner {

@@ -661,12 +661,12 @@ ul.row {
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
 }
-
-.card-work .card-outer {
+.card-work {
   position: relative;
   overflow: hidden;
 }
-.card-work .card-image img{
+
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -680,7 +680,8 @@ ul.row {
   right: -0.1rem;
   z-index: 1;
 }
-.card-work .card-inner:hover {
+
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -691,6 +692,7 @@ ul.row {
   height: 100%;
   position: relative;
 }
+
 .card-work .card-title a {
   display: block;
   text-decoration: none;
@@ -698,14 +700,15 @@ ul.row {
 }
 
 .card-work .card-title a::after {
-  content: " ";
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  content: " ";
+  content: "";
 }
+
 .card-work:hover .card-title {
   opacity: 1;
 }

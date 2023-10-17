@@ -666,7 +666,7 @@ ul.row {
   position: relative;
   overflow: hidden;
 }
-.card-work .card-image {
+.card-work .card-image img{
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -678,10 +678,10 @@ ul.row {
   top: -0.1rem;
   left: -0.1rem;
   right: -0.1rem;
-  z-oreder: 1;
+  z-index: 1;
 }
 .card-work .card-inner:hover {
-  background: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
@@ -691,21 +691,20 @@ ul.row {
   height: 100%;
   position: relative;
 }
-.card-work a,
-.card-title a {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
 }
 
-.card-work a::after,
-.card-title a::after {
+.card-work .card-title a::after {
   content: " ";
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  content: " ";
 }
 .card-work:hover .card-title {
   opacity: 1;

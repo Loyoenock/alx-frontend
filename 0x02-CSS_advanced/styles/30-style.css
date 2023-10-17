@@ -662,11 +662,10 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-.card-work {
+.card-work .card-outer {
   position: relative;
   overflow: hidden;
 }
-
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
@@ -681,7 +680,6 @@ ul.row {
   right: -0.1rem;
   z-index: 1;
 }
-
 .card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -713,4 +711,3 @@ ul.row {
 .card-work:hover .card-title {
   opacity: 1;
 }
-

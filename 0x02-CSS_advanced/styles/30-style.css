@@ -661,6 +661,7 @@ ul.row {
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
 }
+
 .card-work {
   position: relative;
   overflow: hidden;
@@ -712,3 +713,4 @@ ul.row {
 .card-work:hover .card-title {
   opacity: 1;
 }
+
